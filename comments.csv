@@ -1,0 +1,13 @@
+ReviewID,ProductID,Rating,ReviewText,HelpfulnessVotes,VerifiedPurchase,VineReview,ReviewDate
+1,P12345,4,"Great product! Highly recommended.",10,Yes,No,2023-05-01
+2,P67890,4,"Good quality, but a bit expensive.",5,Yes,Yes,2023-05-02
+3,P54321,5,"Average product. Not bad, not great.",2,No,No,2023-05-03
+4,P98765,2,"Disappointed with the performance.",1,Yes,No,2023-05-04
+5,P23456,4,"Absolutely love it! Worth every penny.",8,Yes,Yes,2023-05-05
+6,P78901,2,"good product.",0,No,No,2023-05-06
+7,P34567,4,"Solid product for the price.",3,Yes,No,2023-05-07
+8,P54321,5,"Mixed feelings. Has its pros and cons.",4,Yes,Yes,2023-05-08
+9,P12345,4,"Exceeded my expectations!",7,Yes,No,2023-05-09
+10,P23456,2,"excellent product",1,No,No,2023-05-10
+
+

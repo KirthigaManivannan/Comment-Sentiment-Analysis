@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis Results</title>
+</head>
+<body>
+    <h1>Sentiment Analysis Results</h1>
+    <h2>Sentiment Distribution</h2>
+    <img src="data:image/png;base64,{{ pie_img }}" alt="Pie Chart">
+    <img src="data:image/png;base64,{{ bar_img }}" alt="Bar Chart">
+    <h2>Sentiment Counts</h2>
+    <ul>
+        {% for label, count in sentiment_counts.items() %}
+        <li>{{ label }}: {{ count }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+
